@@ -1,5 +1,17 @@
 ## Claude Best Practices
-
+  ┌───────────┬────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │   Mode    │                                          How it works                                          │
+  ├───────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Team      │ Staged pipeline: plan → PRD → exec → verify → fix. Multiple Claude agents on shared task list. │
+  ├───────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Autopilot │ Single lead agent drives from requirement to completion autonomously.                          │
+  ├───────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Ralph     │ Persistence loop — won't stop until verification confirms full completion.                     │
+  ├───────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ UltraWork │ Maximum parallelism, burst execution across many agents.                                       │
+  ├───────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ UltraQA   │ Cycles diagnose → fix until tests/builds/lint all pass.                                        │
+  └───────────┴────────────────────────────────────────────────────────────────────────────────────────────────┘
 ### Chat
 **Prompt this first:** "Rewrite this email to sound more direct but not rude."
 
@@ -74,3 +86,5 @@ Reusable instruction packs that make Claude better at specific tasks.
 
 ---
 
+## Others
+1. https://github.com/weikma/claude-code-rebuilt

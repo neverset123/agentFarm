@@ -88,4 +88,5 @@ Reusable instruction packs that make Claude better at specific tasks.
 
 ## Others
 1. https://github.com/weikma/claude-code-rebuilt
-2. agent infra: https://github.com/iii-hq/iii?tab=readme-ov-file
+2. https://github.com/shareAI-lab/learn-claude-code
+3. agent infra: https://github.com/iii-hq/iii?tab=readme-ov-file

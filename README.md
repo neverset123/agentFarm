@@ -90,3 +90,4 @@ Reusable instruction packs that make Claude better at specific tasks.
 1. https://github.com/weikma/claude-code-rebuilt
 2. https://github.com/shareAI-lab/learn-claude-code
 3. agent infra: https://github.com/iii-hq/iii?tab=readme-ov-file
+4. Android device automation: https://llamalab.com/automate/
